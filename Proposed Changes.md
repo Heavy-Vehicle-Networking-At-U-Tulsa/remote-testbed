@@ -1,5 +1,5 @@
-#Proposed Contributions
-##Testbed Updates
+# Proposed Contributions
+## Testbed Updates
 1. Change vehicle message logging mechanism 
    *Instead of logging on beaglebone, send data to database directly with StartLogging request.*
 2. Make Testbed Setup Simpler
@@ -14,10 +14,10 @@
    *Remove unnecessary code/files leftover from Joe/Ethan to eliminate confusion for groups following up research on this testbed.*
 7. Fix Time Issues
    *No data is returned if the testbed loses power and BeagleBones are reset because of incorrect system timestamps. Fix this.*
-##Testing
+## Testing
 1. Check if Frames are Dropped
 2. Determine Latency
-##Ambitious Goals (if time permits)
+## Ambitious Goals (if time permits)
 1. Select SPN/PGN from Dropdown to Select a Plot on Plot Page to Graph from Log File on Database
    *Only implement a couple for proof of concept.*
 2. Live Data
